@@ -16,9 +16,9 @@ namespace ExpenseTrackerData.Models
         [Column(TypeName ="decimal(18,2)")] //precision for the amount field
         public decimal Amount { get; set; }
         public DateTime TransactionDate { get; set; }
-        public string Vendor { get; set; }
+        public string? Vendor { get; set; }
         public string Category { get; set; }
-        public string ReceiptURL { get; set; }
+        public string? ReceiptURL { get; set; }
 
        
         
